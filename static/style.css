@@ -1,0 +1,72 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #0074cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Style the main section */
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the hero content */
+  #hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style the AztraBot image */
+  #hero-content img {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  /* Style the hero text */
+  #hero-text {
+    margin-top: 20px; /* Adjust the margin as needed for spacing */
+  }
+  
+  /* Style the hero buttons */
+  #hero-buttons {
+    display: flex;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  #hero-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #0074cc; /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 0;
+  }
